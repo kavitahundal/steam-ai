@@ -1,0 +1,33 @@
+/*
+--------------------------------------------------------------------------------
+Open Sans, sans-serif
+light: 300
+semi-bold: 600
+extra-bold: 800
+--------------------------------------------------------------------------------
+*/
+// @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600,800';
+// @import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,700';
+@import 'https://fonts.googleapis.com/css?family=Khula:400,700';
+@import 'https://fonts.googleapis.com/css?family=Monda:700';
+
+
+.numbers {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: .18em;
+  opacity: 0.7;
+  width: 100%;
+  margin-right: 1.5rem;
+  @include desktop { width: auto; }
+
+  &+p {
+    width: 100%;
+    @include desktop { width: 68%; }
+  }
+}
+
+
+.monda {
+  font-family: 'Monda', sans-serif;
+}

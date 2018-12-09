@@ -1,0 +1,26 @@
+.button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: .30em;
+  opacity: 0.8;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  @include transition();
+  border: solid rgba($light, 0.9) 2px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5rem;
+  @include desktop {
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  &:hover, &:active {
+    border: solid rgba($light, 0.9) 2px;
+    background-color: rgba($light, 1);
+    color: rgba($dark, 0.9);
+  }
+}
